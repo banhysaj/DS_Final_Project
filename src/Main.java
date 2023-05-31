@@ -194,10 +194,9 @@ class GameInventory {
                         break;
 
                     case 3:
-                        System.out.println("If the earth is flat, will asians eat my cat? (Please choose a number for the answer)");
-                        System.out.println("1. Yes lol");
-                        System.out.println("2. No");
-                        System.out.println("3. That is a racial stereotype you should be ashamed");
+                        System.out.println("Is the earth flat)");
+                        System.out.println("1. No lol");
+                        System.out.println("2. Of course it is");
                         int guess2 = scanner1.nextInt();
                         if (guess2 == 1) {
                             System.out.println("Correct!!");
