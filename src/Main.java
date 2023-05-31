@@ -7,18 +7,6 @@ class GameInventory {
 
     }
 
-
-    // Helper method to check if the player has an Upgrade Potion in their inventory
-    private static boolean hasUpgradePotion(Inventory inventory) {
-        List<Item> items = inventory.getItems();
-        for (Item item : items) {
-            if (item.getName().equalsIgnoreCase("Upgrade Potion") && item.getType().equalsIgnoreCase("Potion")) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     public static void maincall() {
         Inventory inventory = new Inventory(20, 1000);
         Scanner scanner = new Scanner(System.in);
